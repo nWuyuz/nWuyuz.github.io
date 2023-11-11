@@ -62,23 +62,23 @@ tags:
     
 # Ditch that Else. Invert the logic. Tackle the edge case first.
 
-  **if**(somestrangeconditions):
-    take care of the edge condition
-  **then happily deal with the things that you expect**
-  return something
-
-  **This can also used to deal with several edge conditions:**
-
-  **if**(sth happen):
-    deal with it
-
-  **if**(sth happen):
-    take care of it before the mains
-
-  **if**(ThisIsTheFinaStrangeCondition):
-    done with margin conditions, now main.
-
-  Then happily code your main principle
+      **if**(somestrangeconditions):
+        take care of the edge condition
+      **then happily deal with the things that you expect**
+      return something
+    
+      **This can also used to deal with several edge conditions:**
+    
+      **if**(sth happen):
+        deal with it
+    
+      **if**(sth happen):
+        take care of it before the mains
+    
+      **if**(ThisIsTheFinaStrangeCondition):
+        done with margin conditions, now main.
+    
+      Then happily code your main principle
 
 
   **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
