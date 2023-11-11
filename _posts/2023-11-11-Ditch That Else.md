@@ -54,11 +54,11 @@ tags:
     Do this
 
 
-    **Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
+**Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
 
-    **Our business processes are complex enough, why bringing it back to coding?**
+**Our business processes are complex enough, why bringing it back to coding?**
 
-    **There is a simple way to solve the arrow coding.**
+**There is a simple way to solve the arrow coding.**
     
 # Ditch that Else. Invert the logic. Tackle the edge case first.
 
