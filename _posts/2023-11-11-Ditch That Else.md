@@ -18,7 +18,7 @@ tags:
 **It is quite safe to do this because we know we have protected the code from inappropriate inputs. **
 
 **However, this also make our code to be really hard to read.**
-
+```py
     If(SomeConditionMet):
         do sth
         ...
@@ -31,9 +31,9 @@ tags:
         Now take your margin situation
 
       return sth
-
+```
 **This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
-
+```py
     if(sth):
       do this
       if(sth):
@@ -52,12 +52,12 @@ tags:
       Finally, solve this
 
     Do this
-
+```
 **Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
 **Our business processes are complex enough, why bringing it back to coding?**
 **There is a simple way to solve the arrow coding.**
 # Ditch that Else. Invert the logic. Tackle the edge case first.
-
+```py
       if(somestrangeconditions):
         take care of the edge condition
       then happily deal with the things that you expect
@@ -76,6 +76,6 @@ tags:
     
       Then happily code your main principle
 
-
+```
 **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
       
