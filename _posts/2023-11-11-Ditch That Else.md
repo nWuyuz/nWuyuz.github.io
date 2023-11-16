@@ -15,7 +15,7 @@ tags:
 
 **Naturally, when we learn to code, we are very likely to get into a if-else structure, and solve the margin issues in the else lines.**
 
-**It is quite safe to do this because we know we have protected the code from inappropriate inputs. **
+**It is quite safe to do this because we know we have protected the code from inappropriate inputs.**
 
 **However, this also make our code to be really hard to read.**
 ```py
