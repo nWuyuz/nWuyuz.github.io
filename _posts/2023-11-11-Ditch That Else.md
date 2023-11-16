@@ -11,7 +11,7 @@ tags:
     -CS
 ---
 
-#Arrow Coding
+# Arrow Coding
 
 **Naturally, when we learn to code, we are very likely to get into a if-else structure, and solve the margin issues in the else lines.**
 
