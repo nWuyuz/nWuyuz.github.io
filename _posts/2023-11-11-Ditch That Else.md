@@ -11,13 +11,13 @@ tags:
     -CS
 ---
 
-  #Arrow Coding
+    #Arrow Coding
 
-  **Naturally, when we learn to code, we are very likely to get into a if-else structure, and solve the margin issues in the else lines.**
+    **Naturally, when we learn to code, we are very likely to get into a if-else structure, and solve the margin issues in the else lines.**
 
-  **It is quite safe to do this because we know we have protected the code from inappropriate inputs. **
+    **It is quite safe to do this because we know we have protected the code from inappropriate inputs. **
 
-  **However, this also make our code to be really hard to read.**
+    **However, this also make our code to be really hard to read.**
 
     **If**(SomeConditionMet):
         do sth
@@ -32,7 +32,7 @@ tags:
 
       return sth
 
-  **This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
+    **This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
 
     **if**(sth):
       do this
@@ -53,14 +53,10 @@ tags:
 
     Do this
 
-
-**Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
-
-**Our business processes are complex enough, why bringing it back to coding?**
-
-**There is a simple way to solve the arrow coding.**
-    
-# Ditch that Else. Invert the logic. Tackle the edge case first.
+    **Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
+    **Our business processes are complex enough, why bringing it back to coding?**
+    **There is a simple way to solve the arrow coding.**
+        # Ditch that Else. Invert the logic. Tackle the edge case first.
 
       **if**(somestrangeconditions):
         take care of the edge condition
@@ -81,5 +77,5 @@ tags:
       Then happily code your main principle
 
 
-  **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
+    **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
       
