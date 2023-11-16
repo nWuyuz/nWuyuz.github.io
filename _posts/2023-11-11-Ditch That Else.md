@@ -19,7 +19,7 @@ tags:
 
 **However, this also make our code to be really hard to read.**
 ```py
-    If(SomeConditionMet):
+    if(SomeConditionMet):
         do sth
         ...
         return sth
