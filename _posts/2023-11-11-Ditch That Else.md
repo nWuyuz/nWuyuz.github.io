@@ -20,7 +20,6 @@ tags:
 **However, this also make our code to be really hard to read.**
 ```py
 if(SomeConditionMet):
-
     #do sth
 
     #...
@@ -35,7 +34,6 @@ if(SomeConditionMet):
 
 
 else(YouDontExpectThis):
-
     #Now take your margin situation
 
    return sth
