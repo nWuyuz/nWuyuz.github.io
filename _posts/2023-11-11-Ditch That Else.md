@@ -20,14 +20,22 @@ tags:
 **However, this also make our code to be really hard to read.**
 ```py
 if(SomeConditionMet):
+
     #do sth
+
     #...
-    #return sth
+
+    return sth
+
     #...
+
     #and 100 lines more
+
     #and more
 
+
 else(YouDontExpectThis):
+
     #Now take your margin situation
 
    return sth
@@ -83,8 +91,8 @@ This can also be used to deal with several edge conditions:
 
 ```py
 if(sth happen):
-
     #deal with it
+
 if(sth happen):
     #take care of it before the mains
 
