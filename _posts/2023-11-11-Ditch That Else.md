@@ -26,8 +26,10 @@ if(SomeConditionMet):
     #...
     #and 100 lines more
     #and more
-    else(YouDontExpectThis):
+
+else(YouDontExpectThis):
     #Now take your margin situation
+
    return sth
 ```
 
