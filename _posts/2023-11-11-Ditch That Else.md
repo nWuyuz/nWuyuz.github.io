@@ -20,14 +20,21 @@ tags:
 **However, this also make our code to be really hard to read.**
 ```py
     if(SomeConditionMet):
+
         #do sth
+
         #...
+
         #return sth
+
         #...
+
         #and 100 lines more
+
         #and more
 
       else(YouDontExpectThis):
+
         #Now take your margin situation
 
       return sth
@@ -35,21 +42,37 @@ tags:
 **This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
 ```py
     if(sth):
+
       #do this
+
       if(sth):
+
         #do that
+
           if(sth):
+
               #do this
+
               if(sth):
+
                 #do that
+
               else:
+
                 #solve that
+
           else:
+
             #solve this
+
       else:
+
       #solve that
+
     else:
+
       #Finally, solve this
+
 
     #Do this
 ```
@@ -58,13 +81,20 @@ tags:
 **There is a simple way to solve the arrow coding.**
 # Ditch that Else. Invert the logic. Tackle the edge case first.
 ```py
+
       if(somestrangeconditions):
+
         #take care of the edge condition
+
       #then happily deal with the things that you expect
+
       return something
+
+```
     
-      This can also be used to deal with several edge conditions:
-    
+This can also be used to deal with several edge conditions:
+
+```py
       if(sth happen):
         #deal with it
     
@@ -77,5 +107,6 @@ tags:
       #Then happily code your main principle
 
 ```
+
 **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
       
