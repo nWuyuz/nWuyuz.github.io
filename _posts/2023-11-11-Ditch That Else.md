@@ -20,38 +20,38 @@ tags:
 **However, this also make our code to be really hard to read.**
 ```py
     if(SomeConditionMet):
-        do sth
-        ...
-        return sth
-        ...
-        and 100 lines more
-        and more
+        #do sth
+        #...
+        #return sth
+        #...
+        #and 100 lines more
+        #and more
 
       else(YouDontExpectThis):
-        Now take your margin situation
+        #Now take your margin situation
 
       return sth
 ```
 **This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
 ```py
     if(sth):
-      do this
+      #do this
       if(sth):
-        do that
+        #do that
           if(sth):
-              do this
+              #do this
               if(sth):
-                do that
+                #do that
               else:
-                solve that
+                #solve that
           else:
-            solve this
+            #solve this
       else:
-      solve that
+      #solve that
     else:
-      Finally, solve this
+      #Finally, solve this
 
-    Do this
+    #Do this
 ```
 **Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
 **Our business processes are complex enough, why bringing it back to coding?**
@@ -59,22 +59,22 @@ tags:
 # Ditch that Else. Invert the logic. Tackle the edge case first.
 ```py
       if(somestrangeconditions):
-        take care of the edge condition
-      then happily deal with the things that you expect
+        #take care of the edge condition
+      #then happily deal with the things that you expect
       return something
     
       This can also be used to deal with several edge conditions:
     
       if(sth happen):
-        deal with it
+        #deal with it
     
       if(sth happen):
-        take care of it before the mains
+        #take care of it before the mains
     
       if(ThisIsTheFinaStrangeCondition):
-        done with margin conditions, now main.
+        #done with margin conditions, now main.
     
-      Then happily code your main principle
+      #Then happily code your main principle
 
 ```
 **Lets [ditch that else](https://blog.codinghorror.com/flattening-arrow-code/)**
