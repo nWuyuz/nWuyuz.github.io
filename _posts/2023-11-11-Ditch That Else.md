@@ -38,7 +38,7 @@ else(YouDontExpectThis):
    return sth
 ```
 
-The issue is that the edge case handling can be left at the end, so we add codew above it, and ***the ifs will dig deeper.***
+The issue is that the edge case handling can be left at the end, so we add code above it, and ***the ifs will dig deeper.***
 
 ```py
 if(sth):
