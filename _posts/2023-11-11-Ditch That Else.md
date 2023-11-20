@@ -38,7 +38,7 @@ else(YouDontExpectThis):
    return sth
 ```
 
-**This has an issue is that the edge case handling can be left at the end, so we add codew above it, and the ifs will dig deeper.**
+The issue is that the edge case handling can be left at the end, so we add codew above it, and ***the ifs will dig deeper.***
 
 ```py
 if(sth):
@@ -67,7 +67,7 @@ else:
 
 #Do this
 ```
-**Code nesting can be the easiest way to bring unnecessary complexity to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
+**Code nesting can be the easiest way to bring *unnecessary complexity* to your code. The human brain can only deal with a few different things at a time, so when facing a code that you need to dig this deep, it is easy to forget something.**
 
 **Our business processes are complex enough, why bringing it back to coding?**
 
