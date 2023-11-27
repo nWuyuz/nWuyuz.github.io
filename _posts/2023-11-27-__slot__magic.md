@@ -11,7 +11,7 @@ tags:
     -CS
 ---
 
-# __slots__ MAJIK
+# __slots__ magic
 
 **every classes have attributes**
 
