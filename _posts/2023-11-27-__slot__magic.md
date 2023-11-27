@@ -4,7 +4,7 @@ title:      __slots__magic
 subtitle:   a way to save RAM
 date:       2023-11-27
 author:     Nathan Wu
-header-img: img/__slots__.png
+header-img: img/slots.png
 catalog:   true
 tags:
     -Notes
