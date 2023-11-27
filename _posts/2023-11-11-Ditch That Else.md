@@ -9,6 +9,7 @@ catalog:   true
 tags:
     
     -CS
+    -Notes
 ---
 
 # Arrow Coding
