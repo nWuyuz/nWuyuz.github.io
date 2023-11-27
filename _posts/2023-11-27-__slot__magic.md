@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      blog
-subtitle:   blog
+title:      __slots__magic
+subtitle:   a way to save RAM
 date:       2023-11-09
 author:     Nathan Wu
 header-img: img/__slots__.png
