@@ -39,7 +39,7 @@ class myclass(obj):
 
 class myclass(obj):
 
-  __slots=['name','identify']
+  __slots__=['name','identify']
 
   def __init__(self,name,identify):
 
