@@ -2,7 +2,7 @@
 layout:     post
 title:      Supply Side Policies
 subtitle:   Regulation and Deregulation
-date:       2023-11-09
+date:       2023-11-29
 author:     Nathan Wu
 header-img: 
 catalog:   true
