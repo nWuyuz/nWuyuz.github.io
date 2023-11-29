@@ -29,7 +29,7 @@ Governments have to accept **trade offs** between objectives
 2. more imports
 3. more debt
 
-###contractionary
+### contractionary
 
 ***positives***
 1. less inflation
