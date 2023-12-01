@@ -13,7 +13,7 @@ tags:
 
 # __slots__ magic
 
-**every classes have attributes**
+**every classe have attributes**
 
 For small classes it can be a bottle neck because **it wastes lots of RAM**
 
